@@ -1,0 +1,46 @@
+/* Toolbar */
+.spacer {
+  flex: 1 1 auto;
+}
+
+/* Container Layout */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Product Card */
+.product-card {
+  width: 300px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .product-card {
+    width: 100%;
+  }
+}
+
+/* Tablet View */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .product-card {
+    width: 45%;
+  }
+}
+
+/* Desktop View */
+@media (min-width: 1025px) {
+  .product-card {
+    width: 300px;
+  }
+}
+
+/* Cart Section */
+.cart-section {
+  text-align: center;
+  margin-top: 20px;
+}
